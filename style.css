@@ -1,0 +1,81 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: inter;
+    font-size: 25px;
+    margin-top: 85px;
+    margin-left: 141px;
+}
+
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-collapse: collapse;
+    margin-top: 23px;
+    margin-left: 141px;
+    font-family: inter;
+    font-size: 15px;
+}
+
+tr td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+}
+
+.id {
+    padding: 21px 27px 14px 29px;
+}
+
+.ids {
+    padding: 19px 31px 16px 32px;
+    font-weight: 700;
+}
+
+.title {
+    padding: 21px 372px 14px 23px;
+}
+
+.titles {
+    padding: 11px 20px 24px 23px;
+    font-weight: 500;
+}
+
+.created_at {
+    padding: 21px 70px 14px 97px;
+}
+
+.creation_date {
+    padding: 17px 93px 18px 97px;
+    color: #FF0000;
+}
+
+.action {
+    padding: 24px 80px 11px 102px;
+}
+
+.edit_button {
+    background-color: #FFD43A;
+    margin: 10px 61px 11px 75px;
+    font-size: 15px;
+    width: 115px;
+    height: 36px;
+}
